@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitalPatas</title>
+    <link rel="icon" type="image/png" href=".././assets/img/iconLogo.png?v=2">
+    <link rel="stylesheet" href="../css/cupons.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo-conteudo">
+          <img src="../assets/img/logo.png" alt="logo" class="logo" />
+          <h1>VitalPatas</h1>
+        </div>
+        <div><button onclick="history.back()" id="voltar">VOLTAR</button></div>
+      </header>
+      <section>
+        <h2>
+          PARA RECEBER O DESCONTO DIGITE O NOME DO(A) MELHOR PROFESSOR(A) DO
+          MUNDO
+        </h2>
+          <div id="confirmacao1">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div id="confirmacao2">
+            <button onclick="Confirmar()" id="confirmacaoBotao">CONFIRMAR</button>
+          </div>
+      </section>
+      <div id="dica"><button onclick="Dica()" id="dicaBotao">DICA</button></div>
+      <footer>Todos os direitos reservados &copy;2026 VitalPatas</footer>
+    </main>
+    <script src="../js/cupons.js"></script>
+  </body>
+</html>
